@@ -1,4 +1,4 @@
-function insertion_sort (a) {
+function InsertionSort (a) {
 	for(var j = 1; j < a.length; j++) {
 		var key = a[j];
 		var i = j-1;
