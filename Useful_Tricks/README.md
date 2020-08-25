@@ -1,1 +1,1 @@
-To check more than two objects, it is trivial to recursively use transitive equality:
+Useful tricks 
