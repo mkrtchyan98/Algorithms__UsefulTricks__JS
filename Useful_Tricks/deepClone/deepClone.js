@@ -9,3 +9,9 @@ function deepClone(object){
 	}
 	return newObject;
 }
+
+// second method 
+let a = {
+//it is deep nested object
+}
+const clone = JSON.parse(JSON.stringify(a))
