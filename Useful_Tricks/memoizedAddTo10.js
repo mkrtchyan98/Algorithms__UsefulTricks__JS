@@ -1,3 +1,6 @@
+//It is simple example of memoization, 
+//it is useful to store some actions returned value because it can take long time to do the same action.
+//Using closure to make private cache variable from global state.
 function memoizedAddTo10() {
   let cache = {};
   return function(n) {
