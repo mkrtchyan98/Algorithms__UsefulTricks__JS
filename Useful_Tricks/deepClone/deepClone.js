@@ -15,3 +15,4 @@ let a = {
 //it is deep nested object
 }
 const clone = JSON.parse(JSON.stringify(a))
+//remember that the object must be save for JSON
