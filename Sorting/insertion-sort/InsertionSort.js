@@ -6,8 +6,6 @@ function InsertionSort (a) {
 			a[i+1] = a[i];
 			i = i-1;
 		}
-
-		
 		a[i+1] = key;
 	}
 	return a;
