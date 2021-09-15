@@ -1,10 +1,9 @@
 function bubbleSort(arr) {
-  let count = 0;
   for (let j = 0; j < arr.length; j++) {
-    for (let i = 0; i < arr.length; i++) {
+    // Decrease the amount of iterations as in the end of each iteration the last elements was already sorted 
+    for (let i = 0; i < arr.length - j; i++) {
       if (arr[i] > arr[i + 1]) {
         [arr[i], arr[i + 1]] = [arr[i + 1], arr[i]];
-        count++;
       }
     }
   }
