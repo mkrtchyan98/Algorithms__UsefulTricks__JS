@@ -5,8 +5,10 @@ function InsertionSort (a) {
 		while(i >= 0 && a[i] > key) {
 			a[i+1] = a[i];
 			i = i-1;
-			a[i+1] = key;
 		}
+
+		
+		a[i+1] = key;
 	}
 	return a;
 }
